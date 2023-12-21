@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // Functions:
+        // A function in JavaScript is a block of code designed
+        // to perform a particular task. It is executed when it is invoked (called). 
+        // A JavaScript function is defined with the function keyword, followed by a 
+        // name, followed by parentheses (). The code to be executed by the function 
+        // is placed inside curly brackets {}. Functions can also take parameters 
+        // and return a value.
+
+        // EG to create function:
+        function sayHi() { // creating function
+            // console.log("Hello"); // work or tasks
+            let a = 2, b = 3;
+            let sum = a + b;
+            // console.log(sum);
+        }
+        sayHi(); // calling function
+        // If I call it again it will run twice
+        // So basically if I call multiple time that it will run, number of
+        // time I call it
+        // Eg:
+        sayHi();
+        sayHi();
+        // It will run 3 times
+
+        // Passing code to function
+        function sum(c, d) {
+            // console.log(c + d);
+        }
+        sum(1, 2);
+
+        // return keyword
+        function s(e, f) {
+            return e + f // after return no code is excuted
+            console.log('Never runs');
+        }
+        const value = s(1,2);
+        console.log(value);
+        
+
+    </script>
+</body>
+
+</html>
